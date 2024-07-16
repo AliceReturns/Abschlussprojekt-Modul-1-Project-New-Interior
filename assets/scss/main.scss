@@ -97,7 +97,7 @@ main {
       color: #3a4f52;
       background-color: #e5e5e5;
       padding: 1em 2em 1em 2em;
-      font-family: "AlegreyaSansSCRegular";
+      font-family: "Roboto";
     }
 
     button:hover {
@@ -242,7 +242,7 @@ main {
         color: #ffffff;
         background-color: rgba(255, 255, 255, 0);
         padding: 1em 2em 1em 2em;
-        font-family: "AlegreyaSansSCRegular";
+        font-family: "Roboto";
       }
 
       button:hover {
@@ -262,6 +262,60 @@ main {
       display: flex;
       flex-direction: row;
       padding-top: 7em;
+
+      .JohnDoe {
+        padding: 0 2em 0 2em;
+      }
+
+      .JaneDoe {
+        padding: 0 2em 0 2em;
+      }
+
+      .AlbertDoe {
+        padding: 0 2em 0 2em;
+      }
+    }
+  }
+
+  .Contact {
+    background-image: url(../img/pexels-donaldtong94-189293.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .Email {
+      text-align: center;
+      color: white;
+      padding-top: 15em;
+
+      p {
+        color: white;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        border: solid 1.5px #ffffff;
+        border-radius: 5px;
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 1em 10em 1em 10em;
+        font-family: "Roboto";
+      }
+      input::placeholder {
+        color: white;
+      }
+    }
+
+    button {
+      border: solid 1.5px #ffffff;
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0);
+      padding: 1em 2em 1em 2em;
+      font-family: "Roboto";
     }
   }
 }

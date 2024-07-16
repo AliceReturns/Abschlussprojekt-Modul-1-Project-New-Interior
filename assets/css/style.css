@@ -89,7 +89,7 @@ main section button {
   color: #3a4f52;
   background-color: #e5e5e5;
   padding: 1em 2em 1em 2em;
-  font-family: "AlegreyaSansSCRegular";
+  font-family: "Roboto";
 }
 main section button:hover {
   background-color: #3a4f52;
@@ -214,7 +214,7 @@ main .QuoteParallax .QuoteTransparency button {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0);
   padding: 1em 2em 1em 2em;
-  font-family: "AlegreyaSansSCRegular";
+  font-family: "Roboto";
 }
 main .QuoteParallax .QuoteTransparency button:hover {
   background-color: #ffffff;
@@ -230,6 +230,52 @@ main .Testimonials .Workers {
   display: flex;
   flex-direction: row;
   padding-top: 7em;
+}
+main .Testimonials .Workers .JohnDoe {
+  padding: 0 2em 0 2em;
+}
+main .Testimonials .Workers .JaneDoe {
+  padding: 0 2em 0 2em;
+}
+main .Testimonials .Workers .AlbertDoe {
+  padding: 0 2em 0 2em;
+}
+main .Contact {
+  background-image: url(../img/pexels-donaldtong94-189293.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .Contact .Email {
+  text-align: center;
+  color: white;
+  padding-top: 15em;
+}
+main .Contact .Email p {
+  color: white;
+}
+main .Contact form {
+  display: flex;
+  flex-direction: column;
+}
+main .Contact form input {
+  border: solid 1.5px #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1em 10em 1em 10em;
+  font-family: "Roboto";
+}
+main .Contact form input::placeholder {
+  color: white;
+}
+main .Contact button {
+  border: solid 1.5px #ffffff;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1em 2em 1em 2em;
+  font-family: "Roboto";
 }
 
 /*# sourceMappingURL=style.css.map */
