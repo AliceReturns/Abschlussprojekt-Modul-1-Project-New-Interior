@@ -278,4 +278,15 @@ main .Contact button {
   font-family: "Roboto";
 }
 
+footer {
+  font-family: "Roboto";
+  font-size: smaller;
+  color: white;
+  background-color: #2f455a;
+  padding: 5em 0em 5em 0;
+}
+footer p {
+  margin-left: 7em;
+}
+
 /*# sourceMappingURL=style.css.map */
