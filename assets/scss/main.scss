@@ -25,11 +25,15 @@ html {
   font-family: "Roboto";
 }
 
+h3 {
+  font-size: 36px;
+}
+
 header {
-  background-image: url(../assets/img/div#header.png);
-  background-color: black;
+  background-image: url(../img/pexels-curtis-adams-1694007-3935316.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   max-width: 100%;
   height: 100vh;
@@ -40,10 +44,18 @@ header {
     padding: 2em;
 
     .Logo {
-      font-family: "Nixie";
-      font-weight: bolder;
-      font-size: 20px;
-      text-transform: capitalize;
+      font-family: "AlegreyaSansSCRegular";
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        text-decoration-color: white;
+      }
     }
   }
 
@@ -53,11 +65,13 @@ header {
     text-align: center;
     padding-top: 5em;
   }
+
   h2 {
     font-family: "AlegreyaSansSCRegular";
     font-size: 22.4px;
     font-weight: lighter;
     text-align: center;
+    color: #ffffffa7;
   }
 }
 
@@ -69,11 +83,13 @@ main {
     height: 100vh;
 
     .LatestWorks {
-      padding-top: 5em;
-      color: #3a4f52;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
+      font-family: "AlegreyaSansSCRegular";
+      color: #3a4f52;
+      padding: 5em 9.8em 3em 9.5em;
     }
 
     button {
@@ -81,10 +97,18 @@ main {
       color: #3a4f52;
       background-color: #e5e5e5;
       padding: 1em 2em 1em 2em;
+      font-family: "AlegreyaSansSCRegular";
+    }
+
+    button:hover {
+      background-color: #3a4f52;
+      color: white;
     }
 
     p {
+      font-family: "Roboto";
       color: #6a6a6a;
+      padding-top: 0.5em;
     }
 
     .GalleryPartOne {
@@ -92,6 +116,15 @@ main {
       flex-direction: row;
       gap: 25px;
       justify-content: center;
+      overflow: hidden;
+
+      img {
+        transition: transform 0.5s ease;
+        overflow: hidden;
+      }
+      img:hover {
+        transform: scale(1.5);
+      }
     }
     .GalleryPartTwo {
       display: flex;
@@ -99,6 +132,136 @@ main {
       gap: 25px;
       padding-top: 25px;
       justify-content: center;
+      overflow: hidden;
+
+      img {
+        transition: transform 0.5s ease;
+        overflow: hidden;
+      }
+      img:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+
+  .OurServiceSection {
+    background-image: url(../img/pexels-fotoaibe-1669799.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .TransparencyBGOne {
+      background-color: rgba(0, 0, 0, 0.411);
+      color: white;
+      text-align: center;
+      padding: 2em 0 2em 0;
+      margin: 3em 7em 3em 7em;
+
+      p {
+        color: white;
+        padding: 2em 0 5em 0;
+      }
+    }
+
+    .Services {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+
+      p {
+        color: white;
+      }
+    }
+  }
+
+  .Blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "AlegreyaSansSCRegular";
+    color: #3a4f52;
+    padding: 5em 9.8em 3em 9.5em;
+  }
+  .BlogPosts {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0 7em 0em 7em;
+
+    img {
+      padding-bottom: 2em;
+    }
+
+    h3 {
+      padding-bottom: 0.5em;
+      color: #3a4f52;
+    }
+
+    em {
+      padding-bottom: 2em;
+      color: #3a4f52;
+    }
+
+    p {
+      padding-bottom: 2em;
+      color: #6a6a6a;
+      padding-right: 2em;
+    }
+
+    a {
+      color: #4da7ca;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-decoration-color: #4da7ca;
+    }
+  }
+
+  .QuoteParallax {
+    background-image: url(../img/pexels-houzlook-3797991.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10em;
+
+    .QuoteTransparency {
+      background-color: rgba(0, 0, 0, 0.411);
+      text-align: center;
+
+      p {
+        color: white;
+      }
+
+      button {
+        border: solid 1.5px #ffffff;
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 1em 2em 1em 2em;
+        font-family: "AlegreyaSansSCRegular";
+      }
+
+      button:hover {
+        background-color: #ffffff;
+        color: grey;
+      }
+    }
+  }
+
+  .Testimonials {
+    text-align: center;
+    font-family: "AlegreyaSansSCRegular";
+    color: #3a4f52;
+    padding: 5em 9.8em 3em 9.5em;
+
+    .Workers {
+      display: flex;
+      flex-direction: row;
+      padding-top: 7em;
     }
   }
 }
