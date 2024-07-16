@@ -1,1 +1,25 @@
-/*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: "SansMedium";
+  src: url(../fonts/AlegreyaSans-Medium.ttf);
+}
+@font-face {
+  font-family: "SansSCRegular";
+  src: url(../fonts/AlegreyaSansSC-Regular.ttf);
+}
+@font-face {
+  font-family: "Nixie";
+  src: url(../fonts/NixieOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto";
+}/*# sourceMappingURL=main.css.map */
