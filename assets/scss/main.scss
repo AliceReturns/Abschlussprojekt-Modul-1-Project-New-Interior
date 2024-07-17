@@ -157,6 +157,10 @@ main {
       color: white;
       text-align: center;
 
+      h3 {
+        padding-top: 0.5em;
+      }
+
       p {
         color: white;
         padding: 2em 0 5em 0;
@@ -168,8 +172,20 @@ main {
       flex-direction: row;
       text-align: center;
 
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      h3 {
+        font-size: 30px;
+        padding-bottom: 0.5em;
+      }
+
       p {
         color: white;
+        font-size: 14px;
+        padding: 0 2em 5em 2em;
       }
     }
   }
