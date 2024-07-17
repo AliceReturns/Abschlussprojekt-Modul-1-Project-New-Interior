@@ -105,7 +105,7 @@ main {
       align-items: center;
       font-family: "AlegreyaSansSCRegular";
       color: #3a4f52;
-      padding: 5em 9.8em 3em 9.5em;
+      padding: 5em 11.1em 3em 10.7em;
     }
 
     button {
@@ -114,11 +114,13 @@ main {
       background-color: #e5e5e5;
       padding: 1em 2em 1em 2em;
       font-family: "Roboto";
+      transition: background-color 0.3s ease;
     }
 
     button:hover {
       background-color: #3a4f52;
       color: white;
+      cursor: pointer;
     }
 
     p {
@@ -129,19 +131,33 @@ main {
 
     .GalleryPartOne {
       display: flex;
-      flex-direction: row;
-      gap: 25px;
+      gap: 20px;
       justify-content: center;
-      overflow: hidden;
 
-      img {
-        transition: transform 0.5s ease;
+      .ImageContainerOne {
         overflow: hidden;
+        width: 350px;
+        height: 200px;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+
+        img:hover {
+          transform: scale(1.2);
+          opacity: 50%;
+        }
       }
-      img:hover {
-        transform: scale(1.5);
+
+      .ImageContainerOne:hover {
+        background-color: #2f455a;
       }
     }
+
     .GalleryPartTwo {
       display: flex;
       flex-direction: row;
@@ -150,12 +166,28 @@ main {
       justify-content: center;
       overflow: hidden;
 
-      img {
-        transition: transform 0.5s ease;
+      .ImageContainerOne {
         overflow: hidden;
+        width: 350px;
+        height: 200px;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+
+        img:hover {
+          transform: scale(1.2);
+          background-color: #2f455a;
+          opacity: 50%;
+        }
       }
-      img:hover {
-        transform: scale(1.5);
+
+      .ImageContainerOne:hover {
+        background-color: #2f455a;
       }
     }
   }
@@ -221,11 +253,13 @@ main {
       background-color: #e5e5e5;
       padding: 1em 2em 1em 2em;
       font-family: "Roboto";
+      transition: background-color 0.3s ease;
     }
 
     button:hover {
       background-color: #3a4f52;
       color: white;
+      cursor: pointer;
     }
   }
   .BlogPosts {
@@ -290,6 +324,8 @@ main {
         background-color: rgba(255, 255, 255, 0);
         padding: 1em 2em 1em 2em;
         font-family: "Roboto";
+        cursor: pointer;
+        transition: background-color 0.3s ease;
       }
 
       button:hover {
@@ -312,7 +348,7 @@ main {
     .Workers {
       display: flex;
       flex-direction: row;
-      padding: 7em 0 3em 0;
+      padding: 4em 0 1em 0;
 
       img {
         padding-bottom: 2em;
@@ -384,6 +420,8 @@ main {
       background-color: rgba(255, 255, 255, 0);
       padding: 1em 2em 1em 2em;
       font-family: "Roboto";
+      cursor: pointer;
+      transition: background-color 0.3s ease;
     }
 
     button:hover {

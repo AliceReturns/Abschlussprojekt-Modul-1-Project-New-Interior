@@ -96,7 +96,7 @@ main .sectionOne .LatestWorks {
   align-items: center;
   font-family: "AlegreyaSansSCRegular";
   color: #3a4f52;
-  padding: 5em 9.8em 3em 9.5em;
+  padding: 5em 11.1em 3em 10.7em;
 }
 main .sectionOne button {
   border: solid 1.5px #3a4f52;
@@ -104,10 +104,12 @@ main .sectionOne button {
   background-color: #e5e5e5;
   padding: 1em 2em 1em 2em;
   font-family: "Roboto";
+  transition: background-color 0.3s ease;
 }
 main .sectionOne button:hover {
   background-color: #3a4f52;
   color: white;
+  cursor: pointer;
 }
 main .sectionOne p {
   font-family: "Roboto";
@@ -116,17 +118,27 @@ main .sectionOne p {
 }
 main .sectionOne .GalleryPartOne {
   display: flex;
-  flex-direction: row;
-  gap: 25px;
+  gap: 20px;
   justify-content: center;
-  overflow: hidden;
 }
-main .sectionOne .GalleryPartOne img {
+main .sectionOne .GalleryPartOne .ImageContainerOne {
+  overflow: hidden;
+  width: 350px;
+  height: 200px;
+  position: relative;
+}
+main .sectionOne .GalleryPartOne .ImageContainerOne img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.5s ease;
-  overflow: hidden;
 }
-main .sectionOne .GalleryPartOne img:hover {
-  transform: scale(1.5);
+main .sectionOne .GalleryPartOne .ImageContainerOne img:hover {
+  transform: scale(1.2);
+  opacity: 50%;
+}
+main .sectionOne .GalleryPartOne .ImageContainerOne:hover {
+  background-color: #2f455a;
 }
 main .sectionOne .GalleryPartTwo {
   display: flex;
@@ -136,12 +148,25 @@ main .sectionOne .GalleryPartTwo {
   justify-content: center;
   overflow: hidden;
 }
-main .sectionOne .GalleryPartTwo img {
-  transition: transform 0.5s ease;
+main .sectionOne .GalleryPartTwo .ImageContainerOne {
   overflow: hidden;
+  width: 350px;
+  height: 200px;
+  position: relative;
 }
-main .sectionOne .GalleryPartTwo img:hover {
-  transform: scale(1.5);
+main .sectionOne .GalleryPartTwo .ImageContainerOne img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+main .sectionOne .GalleryPartTwo .ImageContainerOne img:hover {
+  transform: scale(1.2);
+  background-color: #2f455a;
+  opacity: 50%;
+}
+main .sectionOne .GalleryPartTwo .ImageContainerOne:hover {
+  background-color: #2f455a;
 }
 main .OurServiceSection {
   background-image: url(../img/pexels-fotoaibe-1669799.jpg);
@@ -196,10 +221,12 @@ main .Blog button {
   background-color: #e5e5e5;
   padding: 1em 2em 1em 2em;
   font-family: "Roboto";
+  transition: background-color 0.3s ease;
 }
 main .Blog button:hover {
   background-color: #3a4f52;
   color: white;
+  cursor: pointer;
 }
 main .BlogPosts {
   display: flex;
@@ -255,6 +282,8 @@ main .QuoteParallax .QuoteTransparency button {
   background-color: rgba(255, 255, 255, 0);
   padding: 1em 2em 1em 2em;
   font-family: "Roboto";
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 main .QuoteParallax .QuoteTransparency button:hover {
   background-color: #ffffff;
@@ -272,7 +301,7 @@ main .Testimonials p {
 main .Testimonials .Workers {
   display: flex;
   flex-direction: row;
-  padding: 7em 0 3em 0;
+  padding: 4em 0 1em 0;
 }
 main .Testimonials .Workers img {
   padding-bottom: 2em;
@@ -333,6 +362,8 @@ main .Contact button {
   background-color: rgba(255, 255, 255, 0);
   padding: 1em 2em 1em 2em;
   font-family: "Roboto";
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 main .Contact button:hover {
   background-color: #ffffff;
