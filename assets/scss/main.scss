@@ -171,6 +171,13 @@ main {
         width: 350px;
         height: 200px;
         position: relative;
+        display: inline-block;
+
+        button {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+        }
 
         img {
           width: 100%;

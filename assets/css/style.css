@@ -153,6 +153,12 @@ main .sectionOne .GalleryPartTwo .ImageContainerOne {
   width: 350px;
   height: 200px;
   position: relative;
+  display: inline-block;
+}
+main .sectionOne .GalleryPartTwo .ImageContainerOne button {
+  position: absolute;
+  width: 400px;
+  height: 200px;
 }
 main .sectionOne .GalleryPartTwo .ImageContainerOne img {
   width: 100%;
