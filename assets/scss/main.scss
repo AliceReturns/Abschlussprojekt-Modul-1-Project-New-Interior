@@ -41,6 +41,7 @@ header {
   nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 2em;
 
     .Logo {
@@ -55,6 +56,21 @@ header {
       a:hover {
         text-decoration: underline;
         text-decoration-color: white;
+      }
+    }
+
+    .BurgerMenu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 24px;
+      cursor: pointer;
+
+      .line {
+        width: 25px;
+        height: 4px;
+        background-color: white;
+        margin: 3px 0;
       }
     }
   }
