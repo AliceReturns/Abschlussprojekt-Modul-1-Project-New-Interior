@@ -387,6 +387,7 @@ main .Contact button {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0);
   padding: 1em 2em 1em 2em;
+  margin: 0 25em 0 25em;
   font-family: "Roboto";
   cursor: pointer;
   transition: background-color 0.3s ease;
