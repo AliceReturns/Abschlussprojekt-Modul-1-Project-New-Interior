@@ -237,7 +237,7 @@ main .Testimonials {
   text-align: center;
   font-family: "AlegreyaSansSCRegular";
   color: #3a4f52;
-  padding: 5em 9.8em 3em 9.5em;
+  padding: 5em 9.8em 2em 9.5em;
 }
 main .Testimonials p {
   color: grey;
@@ -265,11 +265,21 @@ main .Contact {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 4em 7em 4em 7em;
+}
+main .Contact h3 {
+  padding-bottom: 0.5em;
+}
+main .Contact p {
+  padding-bottom: 3em;
 }
 main .Contact .Email {
   text-align: center;
   color: white;
   padding-top: 15em;
+  background-color: rgba(0, 0, 0, 0.411);
+  text-align: center;
+  padding: 4em 7em 4em 7em;
 }
 main .Contact .Email p {
   color: white;
@@ -283,8 +293,9 @@ main .Contact form input {
   border-radius: 5px;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0);
-  padding: 1em 10em 1em 10em;
+  padding: 1em 15em 1em 15em;
   font-family: "Roboto";
+  margin-bottom: 2em;
 }
 main .Contact form input::placeholder {
   color: white;
@@ -295,6 +306,10 @@ main .Contact button {
   background-color: rgba(255, 255, 255, 0);
   padding: 1em 2em 1em 2em;
   font-family: "Roboto";
+}
+main .Contact button:hover {
+  background-color: #ffffff;
+  color: grey;
 }
 
 footer {

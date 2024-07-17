@@ -271,7 +271,7 @@ main {
     text-align: center;
     font-family: "AlegreyaSansSCRegular";
     color: #3a4f52;
-    padding: 5em 9.8em 3em 9.5em;
+    padding: 5em 9.8em 2em 9.5em;
 
     p {
       color: grey;
@@ -306,11 +306,23 @@ main {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 4em 7em 4em 7em;
+
+    h3 {
+      padding-bottom: 0.5em;
+    }
+
+    p {
+      padding-bottom: 3em;
+    }
 
     .Email {
       text-align: center;
       color: white;
       padding-top: 15em;
+      background-color: rgba(0, 0, 0, 0.411);
+      text-align: center;
+      padding: 4em 7em 4em 7em;
 
       p {
         color: white;
@@ -325,8 +337,9 @@ main {
         border-radius: 5px;
         color: #ffffff;
         background-color: rgba(255, 255, 255, 0);
-        padding: 1em 10em 1em 10em;
+        padding: 1em 15em 1em 15em;
         font-family: "Roboto";
+        margin-bottom: 2em;
       }
       input::placeholder {
         color: white;
@@ -339,6 +352,11 @@ main {
       background-color: rgba(255, 255, 255, 0);
       padding: 1em 2em 1em 2em;
       font-family: "Roboto";
+    }
+
+    button:hover {
+      background-color: #ffffff;
+      color: grey;
     }
   }
 }
