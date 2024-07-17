@@ -339,7 +339,7 @@ main {
     text-align: center;
     font-family: "AlegreyaSansSCRegular";
     color: #3a4f52;
-    padding: 5em 9.8em 2em 9.5em;
+    padding: 5em 9.8em 7em 9.5em;
 
     p {
       color: grey;
@@ -356,14 +356,26 @@ main {
 
       .JohnDoe {
         padding: 0 2em 0 2em;
+
+        .Space {
+          padding-bottom: 2em;
+        }
       }
 
       .JaneDoe {
         padding: 0 2em 0 2em;
+
+        .Space {
+          padding-bottom: 2em;
+        }
       }
 
       .AlbertDoe {
         padding: 0 2em 0 2em;
+
+        .Space {
+          padding-bottom: 2em;
+        }
       }
     }
   }

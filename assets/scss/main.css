@@ -293,7 +293,7 @@ main .Testimonials {
   text-align: center;
   font-family: "AlegreyaSansSCRegular";
   color: #3a4f52;
-  padding: 5em 9.8em 2em 9.5em;
+  padding: 5em 9.8em 7em 9.5em;
 }
 main .Testimonials p {
   color: grey;
@@ -309,11 +309,20 @@ main .Testimonials .Workers img {
 main .Testimonials .Workers .JohnDoe {
   padding: 0 2em 0 2em;
 }
+main .Testimonials .Workers .JohnDoe .Space {
+  padding-bottom: 2em;
+}
 main .Testimonials .Workers .JaneDoe {
   padding: 0 2em 0 2em;
 }
+main .Testimonials .Workers .JaneDoe .Space {
+  padding-bottom: 2em;
+}
 main .Testimonials .Workers .AlbertDoe {
   padding: 0 2em 0 2em;
+}
+main .Testimonials .Workers .AlbertDoe .Space {
+  padding-bottom: 2em;
 }
 main .Contact {
   background-image: url(../img/pexels-donaldtong94-189293.jpg);
